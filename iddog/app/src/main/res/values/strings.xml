@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">iddog</string>
+
+    <!-- Strings related to Login Fragment -->
+    <string name="login">Entrar</string>
+
+</resources>

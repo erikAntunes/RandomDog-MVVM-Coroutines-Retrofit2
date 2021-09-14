@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@drawable/gradient_list"
-    android:id="@+id/rlLayout">
+    android:id="@+id/rlDogLayout">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/refreshDogActionButton"

@@ -4,15 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_1">
+    android:background="@drawable/gradient_list"
+    tools:context=".MainActivity"
+    android:id="@+id/rlLoginLayout">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/loginButton"
         android:layout_width="match_parent"
-        android:layout_marginStart="54dp"
-        android:layout_marginEnd="54dp"
-        android:background="@drawable/gradient_3"
-        android:textColor="@color/white"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="104dp"
+        android:background="@color/white"
+        android:textColor="@color/gray"
         android:elevation="20dp"
         android:textSize="20sp"
         android:layout_height="wrap_content"

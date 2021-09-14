@@ -75,7 +75,7 @@ class DogFragment : Fragment(R.layout.fragment_feed) {
     }
 
     private fun backgroundAnimation() {
-        val animationDrawable: AnimationDrawable = binding.rlLayout.background as AnimationDrawable
+        val animationDrawable: AnimationDrawable = binding.rlDogLayout.background as AnimationDrawable
         animationDrawable.apply {
             setEnterFadeDuration(1000)
             setExitFadeDuration(3000)

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">iddog</string>
+    <string name="app_name">RandomDog</string>
 
     <!-- Strings related to Login Fragment -->
     <string name="login">Random DOG</string>

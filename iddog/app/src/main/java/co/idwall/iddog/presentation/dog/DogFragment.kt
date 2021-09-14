@@ -1,4 +1,4 @@
-package co.idwall.iddog.presentation.feed
+package co.idwall.iddog.presentation.dog
 
 import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle

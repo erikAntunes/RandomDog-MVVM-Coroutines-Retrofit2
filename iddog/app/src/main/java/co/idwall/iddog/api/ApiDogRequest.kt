@@ -1,13 +1,12 @@
-package co.idwall.iddog.domain
+package co.idwall.iddog.api
 
 import retrofit2.http.GET
 
 const val BASE_URL = "https://random.dog"
 
-interface ApiRequest {
+interface ApiDogRequest {
 
     @GET("/woof.json?ref=apilist.fun")
-
-    suspend fun getRandomDog(): DogFeedResponse
+    suspend fun getRandomDog(): RandomDogResponse
 
 }

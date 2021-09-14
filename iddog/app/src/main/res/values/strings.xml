@@ -2,6 +2,6 @@
     <string name="app_name">iddog</string>
 
     <!-- Strings related to Login Fragment -->
-    <string name="login">Entrar</string>
+    <string name="login">Random DOG</string>
 
 </resources>

@@ -13,4 +13,7 @@ package co.idwall.iddog.domain
  }
  */
 
-class DogFeed
+data class DogFeedResponse(
+    val fileSizeBytes: Int,
+    val url: String
+)

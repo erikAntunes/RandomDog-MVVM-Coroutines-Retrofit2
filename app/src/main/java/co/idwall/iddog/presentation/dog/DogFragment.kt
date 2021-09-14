@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import co.idwall.iddog.R
+import co.idwall.iddog.api.DogRepository
 import co.idwall.iddog.databinding.FragmentFeedBinding
 import com.bumptech.glide.Glide
 
@@ -25,7 +26,7 @@ class DogFragment : Fragment(R.layout.fragment_feed) {
         binding = FragmentFeedBinding.inflate(layoutInflater)
 
         dogViewModel = ViewModelProvider(
-            this, DogViewModel.FeedViewModelFactory()
+            this, DogViewModel.DogViewModelFactory(DogRepository())
         ).get(DogViewModel::class.java)
 
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
